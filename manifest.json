@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Quantum Attendance Helper",
+    "version": "1.0.0",
+    "description": "Shows attendance and how many additional classes can be missed while maintaining 75%.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://qums.quantumuniversity.edu.in/Web_StudentAcademic/Cyborg_S_Dashboard*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
