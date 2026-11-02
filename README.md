@@ -9,6 +9,14 @@ The extension automatically reads subject-wise attendance data and shows:
 - Number of additional classes that can be missed while maintaining **75% attendance**
 - Visual attendance status for each subject
 - A summary dashboard above the existing attendance table
+  
+## 💀 Important 
+The ERP's Year/Sem attendance summary is not updated immediately and may take around 2 days to reflect recent attendance. This means the "Can Miss" value can become outdated.
+
+For example, if the extension shows "Can Miss: 1", you should check the last updated date shown in the ERP's Year/Sem Summary before deciding to skip a class. The calculation is only as accurate as the latest data available in the ERP.
+
+:> For lab classes it is not taking two classes to calculate so if there is showing can miss 2 classes then u can miss only 1 class for lab subject bcz in lab there is 2 absent or 2 present u get in one day.
+
 
 ## ✨ Features
 
